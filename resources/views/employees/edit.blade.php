@@ -101,7 +101,7 @@
                 </div>
 
                 <a href="{{route('employees.index')}}"> <x-adminlte-button type="button" label="Cancel"/> </a>
-                <x-adminlte-button type="submit" theme="success" label="Create"/>
+                <x-adminlte-button type="submit" theme="success" label="Update"/>
             </form>
 
         </div>

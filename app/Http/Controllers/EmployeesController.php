@@ -80,7 +80,7 @@ class EmployeesController extends Controller
                 'salary.between' => 'Invalid data - min 0.001, max 500.000',
                 'salary.numeric' => 'Pls input numeric type',
                 'image.max' => 'Max 5mb for image',
-                 "image.mimes" => 'The image must be a extension of type: jpg, png',
+                "image.mimes" => 'The image must be a extension of type: jpg, png',
                 "image.dimensions" => 'Minimum size must be 300x300'
 
 

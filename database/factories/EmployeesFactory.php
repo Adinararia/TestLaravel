@@ -22,7 +22,7 @@ class EmployeesFactory extends Factory
             'phone' =>  fake('uk_UA')->phoneNumber(),
             'email' => fake()->email(),
             'salary' => fake()->randomFloat(3, 1, 500),
-            'manager_id' => fake()->randomNumber(5, 50000),
+            'manager_id' => fake()->numberBetween(5, 50000),
             'position_id' => fake()->numberBetween(1, 50),
             'created_at' => now(),
             'updated_at' => now(),

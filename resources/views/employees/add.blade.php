@@ -1,5 +1,5 @@
 @extends('layouts.adminlte')
-@section('title', 'Positions')
+@section('title', 'Employees')
 
 @section('myContentHeader')
     <h1>Employees</h1>
